@@ -2,12 +2,45 @@
     margin: 0;
     padding: 0;
 }
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(360deg, #121212 0%, rgba(18, 18, 18, 0) 100%),url(images/Rectangle\ 237.jpg);
+    background-size: cover;
+    background-position: center;
 
-h1{
-    font-size: 60px;
-    text-align: center;
-    font-family: 'Inter', sans-serif;
 }
-p{
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%);
+    text-align: center;
+    color: #FFFFFF;
+}
+.content h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 65px;
+}
+.content p{
     font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin: 20px auto;
+    line-height: 25px;
+}
+button{
+    width: 160px;
+    padding: 16px 12px;
+    text-align: center;
+    margin: 20px 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color:#FF5959;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
